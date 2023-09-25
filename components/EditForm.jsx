@@ -11,7 +11,7 @@ export default function EditForm({ course }) {
       newTitle,
     };
     const response = await fetch(
-      `http://localhost:3000/api/courses/${course._id}`,
+      `https://ewaste-admin.vercel.app/api/courses/${course._id}`,
       {
         method: "PUT",
         headers: {

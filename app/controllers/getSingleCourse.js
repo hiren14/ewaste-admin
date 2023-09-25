@@ -1,6 +1,6 @@
 export default async function getSingleCourse(id) {
   try {
-    const response = await fetch(`http://localhost:3000/api/courses/${id}`, {
+    const response = await fetch(`https://ewaste-admin.vercel.app/api/courses/${id}`, {
       cache: "no-store",
     });
     const course = await response.json();
