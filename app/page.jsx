@@ -9,8 +9,8 @@ export default async function Home() {
   if (session) redirect("/dashboard");
 
   return (
-    <main>
+    <>
       <LoginForm />
-    </main>
+    </>
   );
 }

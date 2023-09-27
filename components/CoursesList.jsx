@@ -24,6 +24,7 @@ export default async function CoursesList() {
   );}
 }
   return (
+    <>
     <div className="courses-list">
       {courses?.map((course) => {
         return (
@@ -129,5 +130,6 @@ export default async function CoursesList() {
         );
       })}
     </div>
+</>
   );
 }
