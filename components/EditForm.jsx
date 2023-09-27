@@ -34,7 +34,7 @@ export default function EditForm({ course }) {
         onChange={(e) => setNewTitle(e.target.value)}
         value={newTitle}
       />
-       <button type="submit">Update Course</button>
+       <button type="submit">Update Points </button>
     </form>
   );
 }
